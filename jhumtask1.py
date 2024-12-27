@@ -14,7 +14,7 @@ print("Image Dimensions:", dimensions)
 print("Intensity Range:", intensity_range)
 print("Frequency Distribution of Intensities:", dict(zip(intensity_values, frequency_distribution)))
 
-#  histogram of intensity values
+#  histogram 
 plt.figure(figsize=(10, 6))
 plt.bar(intensity_values, frequency_distribution, color='blue')
 plt.title('Histogram of Intensity Values')
